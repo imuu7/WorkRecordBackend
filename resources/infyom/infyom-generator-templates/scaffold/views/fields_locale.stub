@@ -1,0 +1,9 @@
+<div class="row">
+$FIELDS$
+
+<!-- Submit Field -->
+<div class="form-group col-sm-12">
+    {!! Form::submit(__('crud.save'), ['class' => 'btn btn-primary']) !!}
+    <a href="javascript:void(0)" onclick="ajaxCU.close()" class="btn btn-default">@lang('crud.cancel')</a>
+</div>
+</div>

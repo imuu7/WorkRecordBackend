@@ -1,0 +1,45 @@
+.page-sidebar{
+    border-right: 1px solid #6b666678;
+    background-color: #19274c;
+    color: #fff;
+}
+
+.page-container{
+    background: #19274c !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #fff;
+}
+
+.page-sidebar a, .page-sidebar button{
+    color: #fff;
+}
+
+.icon-thumbnail{
+    background: #fff0 !important;
+}
+
+.btn3d {
+	position: relative;
+	top: -6px;
+	border: 0;
+	transition: all 40ms linear;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.btn3d.select_1 {
+    box-shadow: 0 0 0 0px #417fbd inset, 0 0 0 0px rgb(255 255 255 / 15%) inset, 0 3px 0 0 #2a2a2d, 0 3px 3px 1px rgb(0 0 0 / 50%);
+    background-color: #253869;
+}
+
+.input_1 {
+    -moz-box-shadow:inset 3px 3px 3px #2a2a2d;
+    -webkit-box-shadow:inset 3px 3px 3px #2a2a2d;
+    box-shadow:inset 3px 3px 3px #2a2a2d;
+    border: 1px solid transparent;
+    background-color: #253869;
+}
